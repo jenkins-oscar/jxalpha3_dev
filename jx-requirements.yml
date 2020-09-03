@@ -7,7 +7,7 @@ buildPacks:
     gitRef: master
     gitURL: https://github.com/jenkins-x/jxr-packs-kubernetes.git
 cluster:
-  clusterName: ""
+  clusterName: tf-jx-inviting-crappie
   devEnvApprovers:
   - todo
   environmentGitOwner: "todo"
@@ -18,7 +18,7 @@ cluster:
   project:  ""
   provider: eks
   registry: ecr.io
-  zone: ""
+  zone: us-east-1
 environments:
 - key: dev
   owner: ""
