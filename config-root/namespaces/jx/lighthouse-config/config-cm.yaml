@@ -64,9 +64,11 @@ data:
         - needs-rebase
         repos:
         - jenkins-oscar/jxalpha3_dev
-      target_url: http://deck-jx.18.233.130.229.nip.io
+      target_url: http://deck-jx.
 kind: ConfigMap
 metadata:
   creationTimestamp: null
   name: config
   namespace: jx
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
